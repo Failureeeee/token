@@ -12,6 +12,8 @@ const generatetonken=(length=8)=>{
 }
 const btn=document.querySelector('button')
 btn.addEventListener('click',()=>{
+
     const liczba=document.querySelector('#ilosc').value
     document.querySelector('div').innerText=generatetonken(liczba)
+    
 })
